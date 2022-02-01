@@ -1,0 +1,27 @@
+.inputDiv {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.inputText {
+    margin: auto;
+    width: 80%;
+    background-color: #f1f1ef;
+}
+.inputTextErr {
+    margin: auto;
+    width: 80%;
+    background-color: #fdebec;
+}
+
+.inputText:focus {
+    background-color: #e7f3f8;
+}
+
+.inputYellow {
+    margin: auto;
+    width: 80%;
+    background-color: #fbf3db;
+}
