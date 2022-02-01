@@ -1,24 +1,5 @@
 import inputStyle from "./Input.module.css";
 
-/*
-const phoneRegExp = /^((\\+[1-9]{1,4}[ \\-]*)|(\\([0-9]{2,3}\\)[ \\-]*)|([0-9]{2,4})[ \\-]*)*?[0-9]{3,4}?[ \\-]*[0-9]{3,4}?$/
-phoneNumber: Yup.string().matches(phoneRegExp, 'Phone number is not valid')
-
-const Input = (props) => {
-    return (
-        <div className={inputStyle.inputDiv}>
-            <input
-                className={inputStyle.inputText}
-                type="text"
-                value={props.value}
-                onChange={event => props.onChangeHandler(event.target.value)}
-            />
-            <input className={inputStyle.inputButton} type="button" value={"Добавить"} onClick={props.callBackFunc}/>
-            <ol>{props.searchArray.map(item => <li key={item.id}>{item.number}</li>)}</ol>
-        </div>
-    );
-};
-*/
 let checker = true;
 let searchArrayChecker = true;
 function foo(value,searhArray) {
